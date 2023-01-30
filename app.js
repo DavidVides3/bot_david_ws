@@ -11,7 +11,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 
 
-const flowLink5 = addKeyword(['VPN, PEGA TODO ROJO']).addAnswer(
+const flowLink5 = addKeyword(['VPN PEGA TODO ROJO']).addAnswer(
     [
         '*PASO 1:*',
         'Descarga la aplicacion: https://cutt.ly/VPN-MrWorldGames',
@@ -94,7 +94,7 @@ const flowLink1 = addKeyword(['RULETA MAGICA FF']).addAnswer(
         ]
     })
 
-const flowPrincipal = addKeyword(['hola','◀','free','stumble','roblox','mr','world','games'])
+const flowPrincipal = addKeyword(['hola','◀','free','roblox','mr','world','games'])
     .addAnswer(        [
         '*Hola ¡¡Bienvenid@!!*',
         '',
@@ -112,7 +112,7 @@ const flowPrincipal = addKeyword(['hola','◀','free','stumble','roblox','mr','w
                 {body:'GENERADOR DE DIAMANTES'},
                 {body:'STUMBLE GUYS'},
                 {body:'GANA DINERO VIENDO VIDEOS'},
-                {body:'VPN, PEGA TODO ROJO'}
+                {body:'VPN PEGA TODO ROJO'}
             ]
         }
     )
