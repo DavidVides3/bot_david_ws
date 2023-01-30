@@ -99,9 +99,11 @@ const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox'])
             '*Instagram:* https://cutt.ly/InstagramMrWorldGames',
             '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
             '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
+            '',
+            'ELIGE UNA OPCIÓN:',
         ],
     )
-    .addAnswer('Elige tu juego favorito:',
+    .addAnswer(
         {
             buttons: [
                 {body:'RULETA MAGICA FF' },
