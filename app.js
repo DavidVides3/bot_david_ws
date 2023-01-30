@@ -99,7 +99,6 @@ const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox'])
             '*Instagram:* https://cutt.ly/InstagramMrWorldGames',
             '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
             '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
-            '',
         ],
     )
     .addAnswer('Elige',
