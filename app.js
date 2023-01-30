@@ -111,10 +111,15 @@ const flowPrincipal = addKeyword(['hola','◀','free','roblox','mr','world','gam
                 {body:'RULETA MAGICA FF'},
                 {body:'GENERADOR DE DIAMANTES'},
                 {body:'STUMBLE GUYS'},
-                {body:'GANA DINERO VIENDO VIDEOS'},
-                {body:'VPN PEGA TODO ROJO'}
             ]
         }
+    ,
+    {
+        buttons: [
+            {body:'GANA DINERO VIENDO VIDEOS'},
+            {body:'VPN PEGA TODO ROJO'}
+        ]
+    }
     )
 
 const main = async () => {
