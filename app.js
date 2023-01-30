@@ -103,7 +103,7 @@ const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox'])
             'ELIGE UNA OPCIÓN:',
         ],
     )
-    .addAnswer(
+    .addAnswer('',
         {
             buttons: [
                 {body:'RULETA MAGICA FF' },
