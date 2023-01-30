@@ -89,19 +89,18 @@ const flowLink1 = addKeyword(['RULETA MAGICA FF']).addAnswer(
         ]
     })
 
-const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox'])
-    .addAnswer(
-        [
-            '*Hola, ¡¡Bienvenid@!!*',
-            '',
-            '*Sigueme en mis Redes Sociales*',
-            '*YouTube:* https://cutt.ly/YouTubeMrWorldGames2',
-            '*Instagram:* https://cutt.ly/InstagramMrWorldGames',
-            '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
-            '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
-        ],
-    )
-    .addAnswer('Elige',
+const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox','mr','world','games'])
+    .addAnswer(        [
+        '*Hola, ¡¡Bienvenid@!!*',
+        '',
+        '*Sigueme en mis Redes Sociales*',
+        '*YouTube:* https://cutt.ly/YouTubeMrWorldGames2',
+        '*Instagram:* https://cutt.ly/InstagramMrWorldGames',
+        '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
+        '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
+        '',
+        'ELIGE UNA OPCIÓN:',
+    ],
         {
             buttons: [
                 {body:'RULETA MAGICA FF' },
