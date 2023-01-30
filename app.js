@@ -11,80 +11,104 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 
 
-const flowLink5 = addKeyword(['Play Store']).addAnswer(
+const flowLink5 = addKeyword(['VPN, PEGA TODO ROJO']).addAnswer(
     [
-        ' Aquí tienes el link de descarga',
-        'https://play.google.com/store/games',
+        '*PASO 1:*',
+        'Descarga la aplicacion: https://cutt.ly/VPN-MrWorldGames',
+        'VPN + REGEDIT',
+        '',
+        '*PASO 2:*',
+        'Dejame una calificacion de 5 estrellas para que funcione.',
+        'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
     ])
-    .addAnswer('volver al menu',{
+    .addAnswer('Volver',{
         buttons:[
             {body: '◀ '}
         ]
     })
-const flowLink4 = addKeyword(['Roblox']).addAnswer(
+const flowLink4 = addKeyword(['GANA DINERO VIENDO VIDEOS']).addAnswer(
     [
-        ' Aquí tienes el link de descarga',
-        'https://play.google.com/store/apps/details?id=com.roblox.client',
+        '*PASO 1:*',
+        'Descarga la aplicacion: https://cutt.ly/Recargas_MrWorldGames',
+        '',
+        '*PASO 2:*',
+        'Viendo videos acumularas puntos y luego los puedes canjear.',
+        'canjealor por PayPal, Diamantes, Gemas y mucho mas...',
     ])
-    .addAnswer('volver al menu',{
-        buttons:[
-            {body: '◀ '}
-        ]
-    })
-
-
-
-const flowLink3 = addKeyword(['Free Fire']).addAnswer(
-    [
-        'Aquí tienes el link de descarga',
-        'https://play.google.com/store/apps/details?id=com.dts.freefireth',
-    ])
-    .addAnswer('volver al menu',{
-        buttons:[
-            {body: '◀ '}
-        ]
-    })
-
-
-const flowLink2 = addKeyword(['Stumble Guys']).addAnswer(
-    [
-        ' Aquí tienes el link de descarga',
-        'https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies',
-    ])
-    .addAnswer('volver al menu',{
+    .addAnswer('Volver',{
         buttons:[
             {body: '◀ '}
         ]
     })
 
-const flowLink1 = addKeyword(['Subway Surfers']).addAnswer(
+
+
+const flowLink3 = addKeyword(['STUMBLE GUYS']).addAnswer(
     [
-        ' Aquí tienes el link',
-        'https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf',
+        '*PASO 1:*',
+        'Descarga la aplicacion: https://cutt.ly/Stumble-MrWorldGames',
+        '',
+        '*PASO 2:*',
+        'Dejame una calificacion de 5 estrellas para que funcione.',
+        'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
     ])
-    .addAnswer('volver al menu',{
+    .addAnswer('Volver',{
         buttons:[
             {body: '◀ '}
         ]
     })
 
-const flowPrincipal = addKeyword(['hola','◀ '])
-    .addAnswer('Hello, ¿como estas?, Bienvenidos!!')
+
+const flowLink2 = addKeyword(['GENERADOR DE DIAMANTES']).addAnswer(
+    [
+        '*PASO 1:*',
+        'Descarga la aplicacion: https://cutt.ly/Codigos-MrWorldGames',
+        '',
+        '*PASO 2:*',
+        'Dejame una calificacion de 5 estrellas para que funcione.',
+        'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
+    ])
+    .addAnswer('Volver',{
+        buttons:[
+            {body: '◀ '}
+        ]
+    })
+
+const flowLink1 = addKeyword(['RULETA MAGICA FF']).addAnswer(
+    [
+        '*PASO 1:*',
+        'Descarga la aplicacion: https://cutt.ly/Ruleta-MrWorldGames',
+        '',
+        '*PASO 2:*',
+        'Dejame una calificacion de 5 estrellas para que funcione.',
+        'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
+    ])
+    .addAnswer('Volver',{
+        buttons:[
+            {body: '◀ '}
+        ]
+    })
+
+const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox'])
     .addAnswer(
         [
-            '*Redes Sociales*',
-            'Instagram: https://www.instagram.com/',
-            'Tiktok: https://www.tiktok.com/',
+            'Hola, Bienvenid@!!',
+            '',
+            '*Sigueme en mis Redes Sociales*',
+            '*YouTube:* https://cutt.ly/YouTubeMrWorldGames2',
+            '*Instagram:* https://cutt.ly/InstagramMrWorldGames',
+            '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
+            '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
         ],
     )
-    .addAnswer('Elije una opcion para continuar',
+    .addAnswer('Elige tu juego favorito:',
         {
             buttons: [
-                {body:'Subway Surfers' },
-                {body:'Stumble Guys' },
-                {body:'Free Fire' },
-                {body:'Roblox' },
-                {body:'Play Store'}
+                {body:'RULETA MAGICA FF' },
+                {body:'GENERADOR DE DIAMANTES' },
+                {body:'STUMBLE GUYS' },
+                {body:'GANA DINERO VIENDO VIDEOS' },
+                {body:'VPN, PEGA TODO ROJO'}
             ]
         }
     )
