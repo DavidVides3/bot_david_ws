@@ -104,7 +104,7 @@ const flowPrincipal = addKeyword(['hola','◀','free','roblox','mr','world','gam
         '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
         '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
         '',
-        '*↓↓↓↓↓↓ELIGE UNA OPCIÓN↓↓↓↓↓↓*',
+        '*↓↓↓↓↓↓-JUEGOS-↓↓↓↓↓↓*',
     ],
         {
             buttons: [
@@ -113,13 +113,14 @@ const flowPrincipal = addKeyword(['hola','◀','free','roblox','mr','world','gam
                 {body:'STUMBLE GUYS'},
             ]
         }
-    ,
-    {
-        buttons: [
-            {body:'GANA DINERO VIENDO VIDEOS'},
-            {body:'VPN PEGA TODO ROJO'}
-        ]
-    }
+    )
+    .addAnswer('*↓↓↓↓↓↓-VARIAS OPCIONES-↓↓↓↓↓↓*',
+        {
+            buttons: [
+                {body:'GANA DINERO VIENDO VIDEOS'},
+                {body:'VPN PEGA TODO ROJO'}
+            ]
+        }
     )
 
 const main = async () => {
