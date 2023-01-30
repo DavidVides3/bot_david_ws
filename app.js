@@ -87,7 +87,7 @@ const flowLink1 = addKeyword(['RULETA MAGICA FF']).addAnswer(
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
         '',
-        'VOLVER',
+        '*VOLVER:↓↓↓*',
     ],{
         buttons:[
             {body: '◀'}
