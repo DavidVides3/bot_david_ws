@@ -100,10 +100,9 @@ const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox'])
             '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
             '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
             '',
-            'ELIGE UNA OPCIÓN:',
         ],
     )
-    .addAnswer('',
+    .addAnswer('Elige',
         {
             buttons: [
                 {body:'RULETA MAGICA FF' },
