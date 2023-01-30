@@ -69,7 +69,7 @@ const flowLink1 = addKeyword(['Subway Surfers']).addAnswer(
     })
 
 const flowPrincipal = addKeyword(['hola','◀ '])
-    .addAnswer('Hola, ¿como estas?')
+    .addAnswer('Hola Bienvenido, ¿como estas?')
     .addAnswer(
         [
             '*Redes Sociales*',
