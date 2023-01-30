@@ -24,7 +24,7 @@ const flowLink5 = addKeyword(['VPN, PEGA TODO ROJO']).addAnswer(
         'VOLVER',
     ],{
         buttons:[
-            {body: '◀ '}
+            {body: '◀'}
         ]
     })
 const flowLink4 = addKeyword(['GANA DINERO VIENDO VIDEOS']).addAnswer(
@@ -39,7 +39,7 @@ const flowLink4 = addKeyword(['GANA DINERO VIENDO VIDEOS']).addAnswer(
         'VOLVER',
     ],{
         buttons:[
-            {body: '◀ '}
+            {body: '◀'}
         ]
     })
 
@@ -57,7 +57,7 @@ const flowLink3 = addKeyword(['STUMBLE GUYS']).addAnswer(
         'VOLVER',
     ],{
         buttons:[
-            {body: '◀ '}
+            {body: '◀'}
         ]
     })
 
@@ -74,7 +74,7 @@ const flowLink2 = addKeyword(['GENERADOR DE DIAMANTES']).addAnswer(
         'VOLVER',
     ],{
         buttons:[
-            {body: '◀ '}
+            {body: '◀'}
         ]
     })
 
@@ -90,11 +90,11 @@ const flowLink1 = addKeyword(['RULETA MAGICA FF']).addAnswer(
         'VOLVER',
     ],{
         buttons:[
-            {body: '◀ '}
+            {body: '◀'}
         ]
     })
 
-const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox','mr','world','games'])
+const flowPrincipal = addKeyword(['hola','◀','free','stumble','roblox','mr','world','games'])
     .addAnswer(        [
         '*Hola ¡¡Bienvenid@!!*',
         '',
