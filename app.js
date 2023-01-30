@@ -21,7 +21,7 @@ const flowLink5 = addKeyword(['VPN, PEGA TODO ROJO']).addAnswer(
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
         '',
-        'VOLVER',
+        '*VOLVER:↓↓↓*',
     ],{
         buttons:[
             {body: '◀'}
@@ -36,7 +36,7 @@ const flowLink4 = addKeyword(['GANA DINERO VIENDO VIDEOS']).addAnswer(
         'Viendo videos acumularas puntos y luego los puedes canjear.',
         'canjealor por PayPal, Diamantes, Gemas y mucho mas...',
         '',
-        'VOLVER',
+        '*VOLVER:↓↓↓*',
     ],{
         buttons:[
             {body: '◀'}
@@ -54,7 +54,7 @@ const flowLink3 = addKeyword(['STUMBLE GUYS']).addAnswer(
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
         '',
-        'VOLVER',
+        '*VOLVER:↓↓↓*',
     ],{
         buttons:[
             {body: '◀'}
@@ -71,7 +71,7 @@ const flowLink2 = addKeyword(['GENERADOR DE DIAMANTES']).addAnswer(
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
         '',
-        'VOLVER',
+        '*VOLVER:↓↓↓*',
     ],{
         buttons:[
             {body: '◀'}
@@ -104,14 +104,14 @@ const flowPrincipal = addKeyword(['hola','◀','free','stumble','roblox','mr','w
         '*TikTok:* https://cutt.ly/TikTokMrWorldGames',
         '*Play Store:* https://cutt.ly/PlayStore-MrWorldGames',
         '',
-        'ELIGE UNA OPCIÓN:',
+        '*↓↓↓↓↓↓ELIGE UNA OPCIÓN↓↓↓↓↓↓*',
     ],
         {
             buttons: [
-                {body:'RULETA MAGICA FF' },
-                {body:'GENERADOR DE DIAMANTES' },
-                {body:'STUMBLE GUYS' },
-                {body:'GANA DINERO VIENDO VIDEOS' },
+                {body:'RULETA MAGICA FF'},
+                {body:'GENERADOR DE DIAMANTES'},
+                {body:'STUMBLE GUYS'},
+                {body:'GANA DINERO VIENDO VIDEOS'},
                 {body:'VPN, PEGA TODO ROJO'}
             ]
         }
