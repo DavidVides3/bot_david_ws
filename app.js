@@ -92,7 +92,7 @@ const flowLink1 = addKeyword(['RULETA MAGICA FF']).addAnswer(
 const flowPrincipal = addKeyword(['hola','◀ ','free','stumble','roblox'])
     .addAnswer(
         [
-            'Hola, Bienvenid@!!',
+            '*Hola, ¡¡Bienvenid@!!*',
             '',
             '*Sigueme en mis Redes Sociales*',
             '*YouTube:* https://cutt.ly/YouTubeMrWorldGames2',
