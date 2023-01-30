@@ -20,8 +20,9 @@ const flowLink5 = addKeyword(['VPN, PEGA TODO ROJO']).addAnswer(
         '*PASO 2:*',
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
-    ])
-    .addAnswer('Volver',{
+        '',
+        'VOLVER',
+    ],{
         buttons:[
             {body: '◀ '}
         ]
@@ -34,8 +35,9 @@ const flowLink4 = addKeyword(['GANA DINERO VIENDO VIDEOS']).addAnswer(
         '*PASO 2:*',
         'Viendo videos acumularas puntos y luego los puedes canjear.',
         'canjealor por PayPal, Diamantes, Gemas y mucho mas...',
-    ])
-    .addAnswer('Volver',{
+        '',
+        'VOLVER',
+    ],{
         buttons:[
             {body: '◀ '}
         ]
@@ -51,8 +53,9 @@ const flowLink3 = addKeyword(['STUMBLE GUYS']).addAnswer(
         '*PASO 2:*',
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
-    ])
-    .addAnswer('Volver',{
+        '',
+        'VOLVER',
+    ],{
         buttons:[
             {body: '◀ '}
         ]
@@ -67,8 +70,9 @@ const flowLink2 = addKeyword(['GENERADOR DE DIAMANTES']).addAnswer(
         '*PASO 2:*',
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
-    ])
-    .addAnswer('Volver',{
+        '',
+        'VOLVER',
+    ],{
         buttons:[
             {body: '◀ '}
         ]
@@ -82,8 +86,9 @@ const flowLink1 = addKeyword(['RULETA MAGICA FF']).addAnswer(
         '*PASO 2:*',
         'Dejame una calificacion de 5 estrellas para que funcione.',
         'DISFRUTA DE LA APLICACION, LUEGO ME LO AGRADECES.',
-    ])
-    .addAnswer('Volver',{
+        '',
+        'VOLVER',
+    ],{
         buttons:[
             {body: '◀ '}
         ]
